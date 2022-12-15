@@ -14,7 +14,7 @@ The following commands install and run the development version:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/AlenaGM/vue3-ui-kit/edit.git
+$ git clone https://github.com/AlenaGM/vue3-ui-kit.git
 
 # Go into the repository
 $ cd flashcards-app
