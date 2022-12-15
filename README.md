@@ -4,6 +4,7 @@ _Component Library built with Vue 3 & Composition API_
 
 ## Components
 1. Button 
+2. Checkbox
 
 
 ## Demo
