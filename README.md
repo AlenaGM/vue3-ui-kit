@@ -1,4 +1,5 @@
-# Vue 3 + Vite
-vue3-ui-kit
+# Vue3 UI Kit
+_Vue 3 & Composition API_
 
-UI Kit (Vue 3 & Composition API)
+Components:
+1. Button
