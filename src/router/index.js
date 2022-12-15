@@ -8,7 +8,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/vue3-ui-kit/",
+      path: "/vue3-ui-kit",
       name: "Index",
       component: Index,
     },
