@@ -7,9 +7,9 @@ const props = defineProps({
   },
 });
 const links = ref([
-  { name: "Typography", href: "/typography" },
-  { name: "Button", href: "/button" },
-  { name: "Checkbox", href: "/checkbox" },
+  { name: "Typography", href: "/vue3-ui-kit/typography" },
+  { name: "Button", href: "/vue3-ui-kit/button" },
+  { name: "Checkbox", href: "/vue3-ui-kit/checkbox" },
 ]);
 </script>
 
