@@ -17,13 +17,13 @@ The following commands install and run the development version:
 $ git clone https://github.com/AlenaGM/vue3-ui-kit.git
 
 # Go into the repository
-$ cd flashcards-app
+$ cd vue3-ui-kit
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
   <br><br>
