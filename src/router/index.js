@@ -8,22 +8,22 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/",
+      path: "/vue3-ui-kit/",
       name: "Index",
       component: Index,
     },
     {
-      path: "/button",
+      path: "/vue3-ui-kit/button",
       name: "Button",
       component: Button,
     },
     {
-      path: "/typography",
+      path: "/vue3-ui-kit/typography",
       name: "Typography",
       component: Typography,
     },
     {
-      path: "/checkbox",
+      path: "/vue3-ui-kit/checkbox",
       name: "Checkbox",
       component: Checkbox,
     },
