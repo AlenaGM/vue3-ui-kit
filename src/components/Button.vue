@@ -113,6 +113,7 @@ const clickOnButton = () => {
   &:disabled {
     opacity: 0.6;
     cursor: default;
+    z-index: -1;
   }
   &_rounded {
     border-radius: 15px;

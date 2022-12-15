@@ -37,8 +37,11 @@ body {
 }
 
 a {
-  color: var(--primary);
   text-decoration: none;
+  color: #000;
+  &:hover {
+    color: var(--primary);
+  }
 }
 
 .line {
