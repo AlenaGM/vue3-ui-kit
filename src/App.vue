@@ -25,7 +25,7 @@ const toggleMenu = () => {
 .content {
   max-width: 1400px;
   margin-left: 250px;
-  padding: 30px;
+  padding: 80px 30px;
   transition: 0.2s;
   &_full {
     margin-left: 0;
@@ -45,7 +45,7 @@ const toggleMenu = () => {
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 499px) {
   .content {
     margin-left: 0;
   }

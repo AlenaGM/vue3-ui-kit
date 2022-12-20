@@ -30,6 +30,18 @@
       :options="listOfcharacters"
     />
   </div>
+  <h2 class="heading-2">Switch</h2>
+  <div class="line line_block">
+    <p>Switch: {{ switchIceCream }}</p>
+    <checkbox
+      label="I love pistachio ice cream"
+      id="switch"
+      name="switch"
+      value="I love pistachio ice cream"
+      type="switch"
+      v-model:checked="switchIceCream"
+    />
+  </div>
 </template>
 
 <script setup>
@@ -50,4 +62,5 @@ const listOfcharacters = ref([
 ]);
 
 const selectedCharacters = ref([]);
+const switchIceCream = ref(false);
 </script>

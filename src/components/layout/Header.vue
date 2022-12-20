@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   z-index: 1;
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 </style>

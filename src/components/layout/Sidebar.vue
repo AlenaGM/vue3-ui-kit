@@ -1,3 +1,15 @@
+<template>
+  <div :class="['sidebar', { sidebar_isopen: openSidebar }]">
+    <router-link
+      class="sidebar__link"
+      v-for="link in links"
+      :key="link.name"
+      :to="link.href"
+      >{{ link.name }}</router-link
+    >
+  </div>
+</template>
+
 <script setup>
 import { ref } from "vue";
 const props = defineProps({
@@ -12,18 +24,6 @@ const links = ref([
   { name: "Checkbox", href: "/vue3-ui-kit/checkbox" },
 ]);
 </script>
-
-<template>
-  <div :class="['sidebar', { sidebar_isopen: openSidebar }]">
-    <router-link
-      class="sidebar__link"
-      v-for="link in links"
-      :key="link.name"
-      :to="link.href"
-      >{{ link.name }}</router-link
-    >
-  </div>
-</template>
 
 <style lang="scss" scoped>
 .sidebar {
