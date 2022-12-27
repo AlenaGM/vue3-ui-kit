@@ -22,6 +22,7 @@ const links = ref([
   { name: "Typography", href: "/vue3-ui-kit/typography" },
   { name: "Button", href: "/vue3-ui-kit/button" },
   { name: "Checkbox", href: "/vue3-ui-kit/checkbox" },
+  { name: "Radiobutton", href: "/vue3-ui-kit/radiobutton" },
 ]);
 </script>
 
