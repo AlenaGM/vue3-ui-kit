@@ -5,10 +5,19 @@ _Component Library built with Vue 3 & Composition API_
 ## Components
 1. Button 
 2. Checkbox
-
+3. Radiobutton
+4. ProgressBar
 
 ## Demo
 [Vue3 UI Kit]
+
+## Tech stack
+
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Vue3 + Vite<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Composition API<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; SASS<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Vue Router 4<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Vuelidate<br>
 
 ## Installation
 
