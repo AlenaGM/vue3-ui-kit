@@ -54,6 +54,8 @@ const props = defineProps({
     margin-bottom: 20px;
     width: 120px;
     height: 120px;
+    position: relative;
+    z-index: -1;
     &-svg {
       transform: rotate(-90deg);
     }

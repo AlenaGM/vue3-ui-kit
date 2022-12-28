@@ -121,11 +121,12 @@ const handleClick = (event) => {
   width: 0;
   visibility: hidden;
   position: absolute;
-  z-index: -1;
   opacity: 0;
   &-container {
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: -1;
   }
   &__label {
     margin-left: 10px;
