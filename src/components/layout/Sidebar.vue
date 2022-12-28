@@ -24,6 +24,7 @@ const links = ref([
   { name: "Checkbox", href: "/vue3-ui-kit/checkbox" },
   { name: "Radiobutton", href: "/vue3-ui-kit/radiobutton" },
   { name: "Progress", href: "/vue3-ui-kit/progress" },
+  { name: "Input", href: "/vue3-ui-kit/input" },
 ]);
 </script>
 
