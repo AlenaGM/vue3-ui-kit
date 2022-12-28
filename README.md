@@ -7,6 +7,7 @@ _Component Library built with Vue 3 & Composition API_
 2. Checkbox
 3. Radiobutton
 4. ProgressBar
+5. Form with validation
 
 ## Demo
 [Vue3 UI Kit]
