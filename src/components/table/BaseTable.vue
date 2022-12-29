@@ -44,6 +44,8 @@ const clickOnHead = (name) => {
   width: 100%;
   margin-bottom: 40px;
   margin-top: 15px;
+  position: relative;
+  z-index: -1;
   &-wrapper {
     display: flex;
     justify-content: center;
