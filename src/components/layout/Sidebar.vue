@@ -26,6 +26,7 @@ const links = ref([
   { name: "Progress", href: "/vue3-ui-kit/progress" },
   { name: "Input", href: "/vue3-ui-kit/input" },
   { name: "Tabs", href: "/vue3-ui-kit/tabs" },
+  { name: "Table", href: "/vue3-ui-kit/table" },
 ]);
 </script>
 
