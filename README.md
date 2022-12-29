@@ -8,6 +8,8 @@ _Component Library built with Vue 3 & Composition API_
 3. Radiobutton
 4. ProgressBar
 5. Form with validation
+6. Tabs
+7. Table
 
 ## Demo
 [Vue3 UI Kit]
