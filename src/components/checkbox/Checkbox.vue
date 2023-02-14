@@ -56,7 +56,6 @@ const props = defineProps({
     default: "checkbox",
   },
 });
-
 const handleClick = (event) => {
   if (props.group) {
     emits("updateCheckboxGroup", {
@@ -72,7 +71,6 @@ const handleClick = (event) => {
 <style lang="scss" scoped>
 .checkbox {
   position: absolute;
-  z-index: -1;
   opacity: 0;
   & + label {
     display: inline-flex;
@@ -126,7 +124,6 @@ const handleClick = (event) => {
     display: flex;
     align-items: center;
     position: relative;
-    z-index: -1;
   }
   &__label {
     margin-left: 10px;

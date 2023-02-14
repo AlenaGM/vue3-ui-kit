@@ -64,7 +64,7 @@ const updateValue = (e) => {
   &-input {
     margin-bottom: 30px;
     position: relative;
-    z-index: -1;
+    //z-index: -1;
   }
   &-error {
     background: var(--danger);

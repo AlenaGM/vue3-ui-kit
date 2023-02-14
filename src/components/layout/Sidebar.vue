@@ -56,5 +56,6 @@ const links = ref([
       color: var(--primary);
     }
   }
+  z-index: 2;
 }
 </style>

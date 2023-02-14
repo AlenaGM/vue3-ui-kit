@@ -53,7 +53,6 @@ const handleClick = (event) => {
 <style lang="scss" scoped>
 .radiobutton {
   position: absolute;
-  z-index: -1;
   opacity: 0;
   & + label {
     display: inline-flex;
