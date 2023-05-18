@@ -1,5 +1,5 @@
 # Vue3 UI Kit
-_Component Library built with VueJS 3 & Composition API_
+_Component Library built with Vue 3 & Composition API_
 
 
 ## Components
