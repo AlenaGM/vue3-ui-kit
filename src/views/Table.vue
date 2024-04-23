@@ -48,27 +48,24 @@ const typeSort = ref("asc");
 const books = ref([
   {
     id: 1,
-    author: "Dmitry Glukhovsky",
-    title: "Metro 2033",
-    image:
-      "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81pNKLAG-cL._AC_UY436_FMwebp_QL65_.jpg",
-    bg: "#ffc7a6",
-  },
-  {
-    id: 12,
-    author: "James Clear",
-    title: "Atomic Habits: An Easy",
-    image:
-      "https://m.media-amazon.com/images/P/0735211299.01._SCLZZZZZZZ_SX500_.jpg",
+    author: " A. A. Milne",
+    title: "Winnie-the-Pooh",
+    image: "/winnie.jpg",
     bg: "#7ddfc3",
   },
   {
     id: 2,
-    author: "J. K. Rowling",
-    title: "Harry Potter and the Order of the Phoenix",
-    image:
-      "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51bZujlJxlL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    author: "Sean Carroll",
+    title: "Something Deeply Hidden",
+    image: "/sthdeeplyhidden.jpg",
     bg: "#66b5f8",
+  },
+  {
+    id: 3,
+    author: "Graham Joyce",
+    title: "The Tooth Fairy",
+    image: "toothfairy.jpg",
+    bg: "#ffc7a6",
   },
 ]);
 
